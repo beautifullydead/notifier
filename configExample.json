@@ -1,0 +1,36 @@
+{
+    "urls": [
+        "https://seattle.craigslist.org/search/seattle-wa/zip?lat=47.5997&lon=-122.3128&search_distance=6.7#search=1~gallery~0~0"
+    ],
+    "email": {
+        "enabled": true,
+        "smtp_server": "smtp.yourdomain.com",
+        "smtp_port": 587,
+        "smtp_use_tls": true,
+        "imap_server": "imap.yourdomain.com",
+        "imap_port": 993,
+        "username": "notifications@yourdomain.com",
+        "password": "your-email-password",
+        "from_address": "notifications@yourdomain.com",
+        "to_addresses": [
+            "your-email@yourdomain.com"
+        ],
+        "notification_subject_prefix": "[Craigslist Alert]"
+    },
+    "db_user": "postgres",
+    "db_password": "postgres",
+    "filters": [
+        "dirt",
+        "soil",
+        "mulch",
+        "compost",
+        "gravel",
+        "sand",
+        "rock",
+        "bark",
+        "wood chips",
+        "woodchips",
+        "wood-chips"
+    ],
+    "combine_texts": true
+}
